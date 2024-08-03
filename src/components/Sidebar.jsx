@@ -12,7 +12,7 @@ const Sidebar = ({ children }) => {
     const toggle = () => setIsOpen(!isOpen);
     const menuItem = [
         {
-            path: "/",
+            path: "/portfolio",
             name: "Home",
             newname: "Home",
             icon: <FaHome />
