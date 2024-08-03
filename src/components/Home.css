@@ -1,0 +1,152 @@
+.home-section-heading{
+    text-align: right;
+    margin: 20px;
+    
+}
+.home-section-heading a{
+    border: 1px solid #FACC16;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.511);
+}
+.home-content{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px; 
+    padding-bottom: 40px;
+}
+.typed-cursor{
+    display: none;
+}
+@media only screen and (max-width:768px){
+    .home-content{
+        padding-top: 20px;
+        text-align: start;
+    }
+}
+@media only screen and (max-width:768px){
+    .home-section-heading{
+        text-align: right;
+        margin: 10px;
+        
+    }
+    
+}
+.home-content h1{
+    font-size: 45px;
+    font-weight: 700;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+    color: white;
+    
+}
+.home-content h3 {
+    font-size: 25px;
+    font-weight: 700;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+    margin-top: 20px;
+    color: #facc16;
+    padding: 6px 10px;
+    
+}
+.home-content h3 span {
+    color: #FACC16;
+}
+.home-content p {
+    font-size: 20px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+    color: rgba(255, 255, 255, 0.541);
+    padding: 10px 10px;
+}
+.home-cont-social-icons{
+    text-align: center;
+    font-size: 22px;
+    padding: 20px 10px;
+}
+.home-cont-social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 2px solid #FACC16;
+    border-radius: 50%;
+    padding: 13px 15px;
+    transition: .5s ease;
+    margin: 10px;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+.home-cont-social-icons a:hover {
+    background: #FACC16;
+    color:#081b29;
+    box-shadow: 0 0 3px #FACC16, 0 0 5px #FACC16;
+}
+.about-mebtn{
+    text-align:center;
+    margin: 20px 30px;
+    padding-bottom: 17px;
+}
+.btn-box {
+    display: flex;
+    padding: 10px 10px;
+    margin: 5px 40% -5px 40%;
+    font-size: 16px;
+    background: #FACC16 ;
+    color: black;
+    border-radius: 40px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1s;
+    box-shadow: 0 0 3px #FACC16, 0 0 5px #FACC16;
+    align-items: center;
+    justify-content: center;
+
+}
+@media only screen and (max-width:768px){
+    .btn-box{
+        margin: 10px;
+        display: block;
+    }
+    .about-mebtn{
+        margin: none;
+        
+    }
+}
+.btn-box:hover {
+    box-shadow: 0 0 2px rgb(50, 48, 172), 0 0 4px rgb(16, 33, 149) , 0 0 6px rgb(0, 81, 255), 0 0 8px rgb(5, 10, 162) ,0 0 10px rgb(66, 61, 130);
+    color: black;
+    cursor: pointer;
+}
+#instagram{
+    color: rgb(255, 0, 0);
+
+}
+#facebook{
+    color: blue;
+
+}
+#git{
+    color: white;
+
+}
+#linkedin{
+    color: darkblue;
+
+}
+#whatsapp{
+    color: rgb(0, 255, 4);
+
+}

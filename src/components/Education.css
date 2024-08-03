@@ -1,0 +1,80 @@
+.edu-list {
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-gap: 40px;
+    margin: 50px 20px 20px 20px;
+    padding-bottom: 50px;
+
+}
+.edu-list div {
+    background-color: transparent;
+    color: white;
+    padding: 30px;
+    font-size: 18px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s,transform 0.5s;
+    box-shadow: 1px 1px 20px grey;
+
+}
+.edu-list div h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #c09c0a;
+
+}
+.edu-list h3 span {
+    color: #0ef;
+}
+.edu-list div:hover{
+    transform: translateY(-10px);
+}
+.education-cont-list-2{
+    padding: 10px;
+    width: 100%;
+    color: white;
+}
+.education-cont-list-2 h2{
+    font-size: 35px;
+    padding: 5px;
+    text-transform: uppercase;
+    color: #caa308;
+
+}
+.internship-body{
+    padding: 10px;
+
+}
+.internship-body h3{
+    font-size: 25px;
+    padding: 10px 5px;
+    color: #d8d8d8;
+
+}
+.internship-body h3 span{
+    float: right;
+    color: grey;
+}
+.internship-body h4{
+    font-size: 20px;
+    padding: 10px 5px;
+    color: rgb(198, 198, 198);
+    
+}
+.internship-body h6{
+    font-size: 18px;
+    padding: 10px 5px;
+}
+.internship-body ul{
+    font-size: 16px;
+    padding: 10px 30px 50px 40px;
+    line-height: 25px;
+    list-style: square;
+    border-bottom: 1px solid cyan;
+    color: rgba(255, 255, 255, 0.502);
+}
+
+
+

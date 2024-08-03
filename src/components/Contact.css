@@ -1,0 +1,147 @@
+.cont-section{
+    display: flex;
+    padding: 20px;
+
+}
+.cont-left{
+    width: 50%;
+
+}
+.cont-right{
+    width: 50%;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+     .cont-left{
+        width: 100%;
+     }
+     .cont-section{
+        display: block;
+     }
+     .cont-right{
+        width: 100%;
+        text-align: center;
+     }
+
+  }
+.cont-left h4{
+    font-size: 28px;
+    font-weight: 700;
+    padding: 20px 0;
+    color: white;
+}
+
+.cont-left h5{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px 0;
+    color: #facc16;
+}
+
+.cont-left p{
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+}
+.cont-list{
+    margin:10px;
+}
+.cont-list p{
+    color: rgba(255, 255, 255, 0.913);
+    padding-bottom: 10px;
+
+}
+.cont-list p svg{
+    font-size: 25px;
+    padding-right: 5px;
+    color: rgb(255, 0, 0);
+}
+.cont-social-icons a svg{
+    font-size: 30px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+
+}
+.cont-social-icons a svg:hover{
+    color: #facc16;
+    padding-bottom: 5px;
+}
+.cont-social-icons{
+    margin-top: 30px;
+}
+.contact-form input,form textarea{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 10px;
+    background: #55555790;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+.contact-form textarea{
+    resize: none;
+    height:220px;
+}
+.contact-form form button{
+    text-align: center;
+    padding: 12px 60px;
+    cursor: pointer;
+    font-size: 18px;
+    background: #facc16 ;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1s;
+    box-shadow: 0 0 5px #facc16, 0 0 25px #facc16 ;
+    opacity: 0;
+    border: 1px solid rgb(9, 171, 171);
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+}
+@keyframes slideRight{
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+}
+@keyframes slideTop{
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom{
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft{
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+

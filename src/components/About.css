@@ -1,0 +1,154 @@
+.about-body{
+    color: white;
+}
+.about-sec-1{
+    display: flex;
+    padding-bottom: 50px;
+    margin-bottom: 74px;
+}
+@media only screen and (max-width:768px){
+    .about-sec-1{
+        display: block;
+    }
+}
+@media only screen and (min-width:768px){
+    .about-sec-1-left img{
+        width: 400px;
+    }
+}
+@media only screen and (max-width:768px){
+    .about-sec-1-left img{
+        width: 300px;
+    }
+}
+
+
+.about-sec-1-right h4{
+    font-size: 30px;
+    padding: 50px 0 10px 0;
+    color:#FACC16;
+}
+
+.about-sec-1-right p{
+    font-size: 20px;
+    letter-spacing: normal;
+    padding: 10px 40px 40px 10px;
+    color: rgba(255, 255, 255, 0.582);
+
+}
+@media only screen and (min-width:768px){
+    .about-sec-1-btn a h2{
+        width: 30%;
+    }
+
+}
+@media only screen and (max-width:768px){
+    .about-sec-1-btn a h2{
+        width: 100%;
+    }
+
+}
+.about-sec-1-btn a h2{
+    text-align: center;
+    padding: 10px 6px;
+    cursor: pointer;
+    font-size: 18px;
+    background: #FACC16 ;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+    box-shadow: 0 0 5px #FACC16, 0 0 2px #FACC16 ;
+    opacity: 0;
+    border: 1px solid #FACC16;
+    margin-top: 10px;
+    color: black;
+}
+
+
+/* ------------ */
+
+.about-sec-2-body{
+    display: flex;
+}
+@media only screen and (max-width:768px){
+    .about-sec-2-body{
+        display: block;
+    }
+}
+.about-sec-2-body-left h2{
+    font-size: 30px;
+    padding: 20px;
+    color: #FACC16;
+}
+@media only screen and (max-width:768px){
+    .about-sec-2-body-left,.about-sec-2-body-right{
+        width: 100%;
+        padding: 5px;
+    }
+
+
+}
+@media only screen and (min-width:768px){
+    .about-sec-2-body-left,.about-sec-2-body-right{
+        width: 50%;
+        padding: 50px;
+    }
+
+    
+
+}
+
+.about-sec-2-body-left table{
+    font-size: 20px;
+    display: block;
+    
+    
+}
+@media only screen and (max-width:768px){
+    .about-sec-2-body-left table tr td{
+        padding: 5px;
+    }
+
+
+}
+@media only screen and (min-width:768px){
+    .about-sec-2-body-left table tr td{
+        padding: 10px;
+    }
+    
+
+}
+.about-sec-2-body-right-bar-1,.about-sec-2-body-right-bar-2,.about-sec-2-body-right-bar-3{
+    margin-top: 20px;
+    padding: 10px;
+}
+.about-sec-2-body-right-bar-1 h3,.about-sec-2-body-right-bar-2 h3,.about-sec-2-body-right-bar-3 h3{
+    font-size: 28px;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid #FACC16;
+    border-radius: 10px;
+}
+.about-sec-2-body-right-bar-1-1 ul{
+    padding: 20px;
+    font-size: 20px;
+    border: 5px solid #FACC16;
+    border-top: none;
+    border-radius: 10px;
+    padding-left: 40px;
+
+}
+
+.about-sec-1-button h2{
+    float: right;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 90px;
+
+}
+.about-sec-1-button {
+    padding: 10px;
+}
